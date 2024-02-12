@@ -1,0 +1,43 @@
+/* THEN I see a dark blue header and footer, and four boxes with a shadow */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: blue;
+  color: white;
+  height: 120px;
+  width: 100%;
+}
+
+
+.cat-img {
+  height: 50px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+ul {
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.card {
+  width: 80%;
+  margin: 40px auto;
+  border: 5px solid gray;
+  box-shadow:5px 10px #888888;
+}
